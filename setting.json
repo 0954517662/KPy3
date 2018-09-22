@@ -1,5 +1,5 @@
 {
-    "autoadd": false,
+    "autoadd": true,
     "autojoin": true,
     "autoread": false,
     "protect": false,
@@ -8,9 +8,9 @@
     "larangan": false,    
     "autoscan": false,
     "cancel": false,    
-    "RAbatas":{"on":true,"members":1},
-    "RAmessage": "http://line.me/ti/p/~rian-rian.",
-    "message1": "Selamat datang...",
+    "RAbatas":{"on":true,"members":10},
+    "RAmessage": "http://line.me/ti/p/~self_js.",
+    "message1": "【さัএπัஞ✵ບิथℓℓҨतΩ】:\nList opsi\n🤖 Pasangan Hidup :\n🔰 Only Status ⏩ 180K/Bulan\n\n🤖 Systim Contract :\n🔰 Only Curhat ⏩ 100K/Bulan\n🔰 Zona Friend + TTM\n🔰 Zona Nyaman + Full Care + On 5day + 2 day free ⏩ 300K/Bulan\n\n✍️ Bisa Requests Mau Berapa Lama Durasi Buat Debay.\nChat Ke : http://line.me/ti/p/~self_js\n\n📃\n* Always on 24 Jam\n* Keuntungan Banyak\n* Durasi min 0.25month\n* max no limit",
     "readMember": {},
     "blacklist": {},   
     "readPoint": {}
