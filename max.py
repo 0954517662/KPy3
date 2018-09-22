@@ -33,9 +33,9 @@ clientSettings = client.getSettings()
 #==============================================================================================================
 clientPoll = OEPoll(client)
 #==============================================================================================================
-admin = "ufc6d985e53fcf4ae5436354406ce408c"
-owner = "ufc6d985e53fcf4ae5436354406ce408c"
-Bots=[mid,"ufc6d985e53fcf4ae5436354406ce408c"]
+admin = "ue1d6a794435130d139f9c5dde19aa9e5"
+owner = "ue1d6a794435130d139f9c5dde19aa9e5"
+Bots=[mid,"ue1d6a794435130d139f9c5dde19aa9e5"]
 #==============================================================================================================
 #==============================================================================================================
 contact = client.getProfile()
@@ -2123,7 +2123,7 @@ def lineBot(op):
                             settings["restartPoint"] = to
                             restartBot()
                         elif cmd == "me" or cmd == "tes":
-                            client.sendMentionFooter(to, '「Me」\n', sender, "https://line.me/ti/p/~yukie2k18", "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName);client.sendMessage(to, client.getContact(sender).displayName, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+client.getContact(sender).pictureStatus, 'i-installUrl': 'https://line.me/ti/p/~yukie2k18', 'type': 'mt', 'subText': "Khie Bot", 'a-installUrl': 'https://line.me/ti/p/~yukie2k18', 'a-installUrl': ' https://line.me/ti/p/~yukie2k18', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/ti/p/~yukie2k18', 'i-linkUri': 'https://line.me/ti/p/~yukie2k18', 'id': 'mt000000000a6b79f9', 'text': 'Khie', 'linkUri': 'https://line.me/ti/p/~yukie2k18'}, contentType=19)
+                            client.sendMentionFooter(to, '「Me」\n', sender, "https://line.me/ti/p/~self_js", "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName);client.sendMessage(to, client.getContact(sender).displayName, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+client.getContact(sender).pictureStatus, 'i-installUrl': 'https://line.me/ti/p/~self_js', 'type': 'mt', 'subText': "Khie Bot", 'a-installUrl': 'https://line.me/ti/p/~self_js', 'a-installUrl': ' https://line.me/ti/p/~self_js', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/ti/p/~self_js', 'i-linkUri': 'https://line.me/ti/p/~self_js', 'id': 'mt000000000a6b79f9', 'text': 'Khie', 'linkUri': 'https://line.me/ti/p/~self_js'}, contentType=19)
                         elif cmd == "yabi":
                             userid = "https://line.me/ti/p/~" + client.profile.userid
                             client.sendImageWithFooter(to, "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, str(userid), "http://dl.profile.line-cdn.net/"+client.getContact(sender).pictureStatus, client.getContact(sender).displayName)
@@ -3783,12 +3783,12 @@ def lineBot(op):
                         elif cmd == "mention" or cmd == "tagall" or cmd == "desah" or cmd == "jembot":
                             group = client.getGroup(msg.to)
                             nama = [contact.mid for contact in group.members]
-                            k = len(nama)//100
+                            k = len(nama)//20
                             for a in range(k+1):
                                 txt = u''
                                 s=0
                                 b=[]
-                                for i in group.members[a*100 : (a+1)*100]:
+                                for i in group.members[a*20 : (a+1)*20]:
                                     b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                                     s += 7
                                     txt += u'@RhyN_\n'
@@ -5252,7 +5252,7 @@ def cium(to, nama):
     strt = int(0)
     akh = int(0)
     nm = nama
-    myid = "uaca55463c423c3632012598148691da7"
+    myid = "ue1d6a794435130d139f9c5dde19aa9e5"
     if myid in nm:    
       nm.remove(myid)
     #print nm
